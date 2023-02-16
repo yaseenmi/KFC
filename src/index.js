@@ -5,13 +5,13 @@ import Home from './pages/Home';
 import reportWebVitals from './reportWebVitals';
 import Header from './components/Header';
 import Footer from './components/common/Footer';
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter  } from "react-router-dom";
 import ProductList from './pages/ProductList';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
 
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={
           <>
@@ -28,7 +28,7 @@ root.render(
         } />
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
 
   </React.StrictMode>
 );

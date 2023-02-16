@@ -5,7 +5,7 @@ import '../styles/header.css'
 function Header() {
     const [language, setLanguage] = useState('عربي');
     return (
-        <div id={'slideTop'} className='header-container'>
+        <div className='header-container'>
             <div className='header-section1'>
                 <div className='header-menu-container'>
                     <div className='menu-icon1'></div>

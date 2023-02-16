@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KFC/static/css/main.af3bb754.css",
-    "main.js": "/KFC/static/js/main.965d531b.js",
+    "main.js": "/KFC/static/js/main.07d5f4b6.js",
     "static/js/787.e5d99e26.chunk.js": "/KFC/static/js/787.e5d99e26.chunk.js",
     "static/media/offer.png": "/KFC/static/media/offer.cdbc8763ee6041f042b0.png",
     "static/media/boxdeal.png": "/KFC/static/media/boxdeal.1aee568480a0bdf1e9a4.png",
@@ -23,11 +23,11 @@
     "index.html": "/KFC/index.html",
     "static/media/image-loader.svg": "/KFC/static/media/image-loader.141f19b197bc06029f18e555bdf622c5.svg",
     "main.af3bb754.css.map": "/KFC/static/css/main.af3bb754.css.map",
-    "main.965d531b.js.map": "/KFC/static/js/main.965d531b.js.map",
+    "main.07d5f4b6.js.map": "/KFC/static/js/main.07d5f4b6.js.map",
     "787.e5d99e26.chunk.js.map": "/KFC/static/js/787.e5d99e26.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.af3bb754.css",
-    "static/js/main.965d531b.js"
+    "static/js/main.07d5f4b6.js"
   ]
 }

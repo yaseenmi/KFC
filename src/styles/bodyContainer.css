@@ -1,0 +1,51 @@
+.menu-container {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #393F52;
+    display: flex;
+    gap: 10px;
+}
+
+.bar {
+    width: 34px;
+    height: 2px;
+    background: #E4002B;
+    position: relative;
+    bottom: 10px;
+}
+
+.chicken-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.view-all {
+    display: flex;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 17px;
+    color: #427EFF;
+    gap: 9px;
+}
+
+.view-all-icon {
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+
+}

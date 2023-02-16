@@ -1,0 +1,11 @@
+.images-container {
+    width: 100%;    
+
+}
+
+.images-container img {
+    border-radius: 30px;
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 40px;
+}

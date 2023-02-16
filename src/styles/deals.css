@@ -1,0 +1,13 @@
+.productList-deals-container {
+    width: 65%;
+    gap: 55px;
+    padding-left: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.dealCard-container {
+    width: 100px;
+    margin-right: 100px;
+}

@@ -1,0 +1,18 @@
+.home-container {
+    padding-top: 65px;
+}
+
+.wide-image-offer {
+    width: 100%;
+    height: 305px;
+}
+
+.products-container {
+    padding-top: 16px;
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+

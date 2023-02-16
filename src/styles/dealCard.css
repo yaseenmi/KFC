@@ -1,0 +1,82 @@
+.deal-menu-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.deal-menu-card {
+    position: relative;
+    bottom: 20px;
+    padding: 10px;
+    width: 217px;
+    height: 251px;
+    background: #FFFFFF;
+    border-radius: 17px 15px 15px 15px;
+}
+
+.deal-menu-card-image {
+    position: relative;
+    top: 20px;
+    width: 200px;
+    height: 150px;
+    z-index: 5;
+}
+
+.deal-menu-card-title {
+    position: relative;
+    top: 25%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #393F52;
+}
+
+.divider {
+    position: relative;
+    top: 13%;
+    color: gray;
+}
+
+.deal-menu-card-description {
+    position: relative;
+    top: 10%;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #6A6E8E;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.deal-menu-card-price {
+    height: 37px;
+    width: 90%;
+    border: none;
+    background: #F0F4FA;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    color: #393F52;
+    position: absolute;
+    bottom: 6%;
+    padding: 10px;
+}
+
+.heart-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.home-heart {
+    position: absolute;
+    bottom: 67%;
+}

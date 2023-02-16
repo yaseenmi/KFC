@@ -1,0 +1,24 @@
+.bestsellers-menu-body {
+    padding-bottom: 17px;
+    padding-top: 25px;
+    overflow-x: auto;
+    width: 100%;
+    height: 100%;
+    flex-wrap: nowrap;
+    cursor: pointer;
+}
+
+.bestsellers-menu-slider {
+    display: flex;
+    gap: 45px;
+    transition: ease 1500ms;
+    width: 100%;
+}
+
+
+.bestsellers-menu-card-image {
+    width: 222px;
+    height: 300px;
+    border-radius: 17px;
+
+}

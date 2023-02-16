@@ -1,0 +1,136 @@
+.productList-container {
+    padding-top: 65px;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.productList-menu-container {
+    padding: 20px;
+    padding-left: 190px;
+    padding-right: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productList-menu {
+    width: fit-content;
+    display: flex;
+    height: 56px;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
+.productList-menu-items {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.productList-item {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.productList-item:hover .item {
+    color: #E4002B;
+    cursor: pointer;
+}
+
+.item {
+    margin: 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ADAEB1;
+}
+
+.productList-search {
+    background-color: #F2F9FF;
+    width: 120px;
+    border-radius: 4px;
+    color: #ADAEB1;
+    border: none;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.productList-search::placeholder {
+
+    font-family: FontAwesome, Rubik;
+    color: #D9D9D9;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.productList-search:focus {
+    outline: none;
+    border: none;
+}
+
+.productList-body-container {
+    width: 100%;
+    display: flex;
+}
+
+.productList-choose-your-meal {
+    margin-top: 70px;
+    width: 24%;
+    height: 358px;
+    background: #FFFFFF;
+    border-radius: 9px 9px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-your-meal-header {
+    background: #F5FAFF;
+    border-radius: 9px 9px 0px 0px;
+    width: 100%;
+    padding: 2px;
+}
+
+.choose-your-meal-text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #393F52;
+    margin: 0;
+    position: relative;
+    top: 10px;
+}
+
+.choose-your-meal-image {
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.choose-your-meal-boxes {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    position: relative;
+    bottom: 63%;
+    right: 20px;
+}
+
+.meal-box {
+    width: 15px;
+    height: 16px;
+    background: #E4002B;
+
+}

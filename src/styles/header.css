@@ -1,0 +1,98 @@
+.header-container {
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 54px;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-section1 {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 10px;
+
+}
+
+.header-menu-container {
+    direction: rtl;
+    cursor: pointer;
+}
+
+.menu-icon1,
+.menu-icon2 {
+    margin: 6px 0;
+    width: 22px;
+    height: 2px;
+    background-color: #393F52;
+    transition: width .6s;
+
+}
+
+.menu-icon3 {
+    margin: 6px 0;
+    width: 10px;
+    height: 2px;
+    background-color: #393F52;
+    transition: width .6s;
+}
+
+.header-menu-container:hover .menu-icon3 {
+    width: 22px;
+    transition: width .3s;
+}
+
+.header-menu-container:hover .menu-icon2 {
+    width: 15px;
+}
+
+.header-menu-container:hover .menu-icon1 {
+    width: 6px;
+}
+
+.search-input {
+    width: 100px;
+    height: 37px;
+    border-radius: 8px;
+    border: 2px solid #E4002B;
+    border-width: 2px;
+}
+
+.search-input:focus {
+    border-color: #E4002B;
+    outline: #E4002B;
+    background-color: #FEF2F4;
+}
+
+.language {
+    padding-right: 150px;
+}
+
+.language-button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FEF2F4;
+    color: #E4002B;
+    border: 2px solid #E4002B;
+    border-radius: 8px;
+    appearance: none !important;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.language-button:hover {
+    color: #E4002B;
+}
+
+.language-button:focus {
+    box-shadow: 1px 2px 6px 0px #E4002B;
+}
+
+.dropdown-menu {
+    text-align: center;
+    min-width: fit-content !important;
+}

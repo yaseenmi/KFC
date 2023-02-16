@@ -8,16 +8,20 @@ import ImageContent from '../components/ImageContent';
 
 const Home = () => {
 
+  document.title = "Home | KFC"
+
   return (
-    <div className="home-container">
-      <img className='wide-image-offer' src={offer} alt='offer' />
-      <div className='products-container'>
-        <ExploreMenu />
-        <TopDeals />
-        <BestSellers />
-        <ImageContent />
+    <>
+      <div className="home-container">
+        <img className='wide-image-offer' src={offer} alt='offer' />
+        <div className='products-container'>
+          <ExploreMenu />
+          <TopDeals />
+          <BestSellers />
+          <ImageContent />
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

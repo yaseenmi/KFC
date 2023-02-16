@@ -32,7 +32,7 @@ function BestSellers() {
                             {bestSellers !== undefined ? bestSellers.map((d) => (
                                 <a href='#' key={d.id}>
                                     <div onClick={() => { setIsOpen(true); setTitle(d.title); setDescription(d.description); setImage(d.image); setPrice(d.price) }} className='bestsellers-menu-card'>
-                                        <img className='bestsellers-menu-card-image' src={d.image} alt='' />
+                                        <img className='bestsellers-menu-card-image' src={d.image} alt='' loading='lazy'/>
                                     </div>
                                 </a>
                             )) : null}

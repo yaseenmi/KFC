@@ -15,7 +15,7 @@ function BestSellCard({ image, title, description, price, isOpen ,_onClick}) {
                     <div className="bestSell-box"></div>
                 </div>
 
-                <img className="bestSell-image" src={image} alt='' />
+                <img className="bestSell-image" src={image} alt='' loading='lazy'/>
 
                 <div className="bestSell-card-container">
                     <p className="bestSell-title">{title}</p>

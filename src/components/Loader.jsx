@@ -4,7 +4,7 @@ import '../styles/loader.css'
 function Loader() {
     return (
         <div className="loader-container" >
-            <img className="loader-text" src={kfcLogo} color={'primary'} alt='' />
+            <img className="loader-text" src={kfcLogo} color={'primary'} loading='eager' alt='' />
             <img className="loader-logo" src={loader} loading='eager' alt='Loading...' />
         </div>
     )

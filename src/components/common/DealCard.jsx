@@ -6,7 +6,7 @@ function DealCard({ image, title, description, price, isLoaded,}) {
     return (
         <div className='deal-menu-card-container'>
             {!isLoaded ? (
-                <img className='deal-menu-card-image' src={image} alt='' />
+                <img className='deal-menu-card-image' src={image} alt='' loading='lazy'/>
             ) :
                 <img className='deal-menu-card-image' src={imageloader} alt='' />
             }

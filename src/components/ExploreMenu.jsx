@@ -38,7 +38,7 @@ function ExploreMenu() {
                             {exploreData.map((e, i) => (
                                 <Link style={{ textDecoration: 'none' }} key={i} to={'/productList/deals'}>
                                     <div className='explore-menu-card'>
-                                        <img className='explore-menu-card-image' src={e.image} alt='' />
+                                        <img className='explore-menu-card-image' src={e.image} alt='' loading='lazy'/>
                                         <p className='explore-menu-card-title'>{e.title}</p>
                                         <div className='explore-menu-card-bar'></div>
                                         <span className='dot'></span>

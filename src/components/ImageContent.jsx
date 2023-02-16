@@ -6,10 +6,10 @@ import '../styles/imageContent.css'
 function ImageContent(){
     return(
         <div className="images-container">
-            <img src={fav} alt=''/>
-            <img src={limitedtime} alt=''/>
-            <img src={boxdeal} alt=''/>
-            <img src={burger} alt=''/>
+            <img src={fav} alt='' loading='lazy'/>
+            <img src={limitedtime} alt='' loading='lazy'/>
+            <img src={boxdeal} alt='' loading='lazy'/>
+            <img src={burger} alt='' loading='lazy'/>
         </div>
     )
 }
